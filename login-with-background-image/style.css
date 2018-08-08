@@ -1,0 +1,54 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #666666;
+    background-color: #fff;
+}
+.login-bg {
+    background-image: url('https://s.tmimgcdn.com/blog/wp-content/uploads/2017/05/gradient.jpg?x54449');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.custom-card {
+    width: 100%;
+    max-width: 360px;
+    color: #464343;
+    background-color: rgba(255, 255, 255, 0.245);
+}
+.border-transparent {
+    border-top: 1px solid rgba(255, 255, 255, 0.356);
+}
+.btn-signup {
+    color: #fff;
+    background-color: #664870;
+}
+.btn-fb {
+    color: #fff;
+    background-color: #3b5999;
+}
+ .btn-ln {
+     color: #fff;
+     background-color: #0073b1;
+ }
+ .card-footer button {
+     border-radius: 0;
+ }
+.btn i {
+    margin-right: 8px;
+}
+ .btn i, .btn span {
+     vertical-align: middle ;
+ }
+.checkbox-group label {
+    margin: 0 5px;
+}
+ .checkbox-group input[type="checkbox"] {
+     vertical-align: middle;
+     margin: 0 5px;
+ }
